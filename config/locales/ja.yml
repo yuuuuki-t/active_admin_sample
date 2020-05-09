@@ -1,0 +1,13 @@
+ja:
+  activerecord:
+    models:
+      user: 'ユーザー'
+      comment: 'コメント'
+      # commentsだがここでは単数形で書く
+      admin_user: '管理者'
+      # adminとuserなのでアンダーバーで区切る
+    attributes:
+      user:
+        name: '名前'
+        age: '年齢'
+        address: '住所'
